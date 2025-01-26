@@ -1,0 +1,56 @@
+/* Контейнер для статистики */
+.statsContainer {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff23;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    margin: 0 auto;
+    /* Центрування по горизонталі */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Центрування по горизонталі всіх елементів всередині */
+    justify-content: center;
+    /* Центрування по вертикалі всередині */
+}
+
+/* Заголовок секції */
+.statsTitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #4d5ae5;
+    text-align: center;
+    /* Вирівнювання заголовка по центру */
+}
+
+/* Список статистики */
+.statsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* Для підтримки центрування всіх елементів */
+}
+
+.statItem {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* Вирівнювання тексту всередині кожного елемента */
+}
+
+.statItem span:first-child {
+    font-weight: 500;
+}
+
+.statItem span:last-child {
+    color: #4d5ae5;
+    font-weight: 700;
+}

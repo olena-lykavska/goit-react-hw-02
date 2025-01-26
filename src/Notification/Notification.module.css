@@ -1,0 +1,8 @@
+/* Стиль для повідомлення */
+.notification {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff6b6b;
+    text-align: center;
+    margin-top: 24px;
+}

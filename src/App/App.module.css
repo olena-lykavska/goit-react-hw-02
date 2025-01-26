@@ -1,0 +1,25 @@
+/* Стилі для основного контейнера */
+html,
+body {
+  height: 100%;
+  /* Забезпечуємо, що висота сторінки буде 100% */
+  margin: 0;
+  /* Вимикаємо відступи браузера */
+  display: flex;
+  justify-content: center;
+  /* Центруємо по горизонталі */
+  align-items: center;
+  /* Центруємо по вертикалі */
+}
+/* Стиль для головного контейнера */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}

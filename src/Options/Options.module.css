@@ -1,0 +1,37 @@
+/* Контейнер для кнопок */
+.buttonsContainer {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Стиль для кожної кнопки */
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* Стиль при наведенні */
+.button:hover {
+    background-color: #3c47c4;
+    transform: translateY(-2px);
+}
+
+/* Стиль для кнопки "Reset" */
+.resetButton {
+    background-color: #ff6b6b;
+}
+
+.resetButton:hover {
+    background-color: #e63e3e;
+}
