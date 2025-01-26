@@ -18,13 +18,6 @@ const App = () => {
     return { good: 0, neutral: 0, bad: 0 };
   });
 
-  // Завантаження даних з локального сховища при оновленні сторінки
-  useEffect(() => {
-    const storedFeedback = JSON.parse(localStorage.getItem('feedback'));
-    if (storedFeedback) {
-      setFeedback(storedFeedback); // Якщо є збережені відгуки, встановлюємо їх у стан
-    }
-  }, []); // Пустий масив залежностей — виконується тільки при монтуванні компонента
 
   // Збереження відгуків у локальному сховищі після кожної зміни стану
   useEffect(() => {
